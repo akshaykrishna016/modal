@@ -1,0 +1,46 @@
+#btn{
+    border:none;
+    width:10%;
+    height: 5vh;
+    background-color: #8d9bb2;
+    color: white;
+    cursor: pointer;
+}
+
+.modal {
+    display: none; 
+    position: fixed;  
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.5);
+}
+.modal-content{
+    text-align: center;
+    background-color: #57608e;
+    margin:15% auto;
+    width: 60%;
+    /*height: 50%;
+*/}
+
+.modal-header{
+    background: #9baaf2;
+}
+.modal-body{
+    color: white; 
+     
+}
+.close{
+    position: absolute;
+    left: 79%;
+    color: white;
+    border-radius: 7em;
+    border-color: white;
+    border:0.5em; 
+    background: #57608e;
+    cursor: pointer;
+}
+
+
